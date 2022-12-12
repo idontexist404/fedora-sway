@@ -14,6 +14,7 @@ dnf install \
 	xorg-x11-server-Xwayland \
 	swaylock \
 	swayidle \
+	polkit \
 	polkit-gnome \
 	qt5-qtwayland \
 	breeze-gtk \
@@ -23,15 +24,25 @@ dnf install \
 	xlsclients \
 	xorg-x11-drv-libinput \
 	xorg-x11-drv-intel \
-	alacritty \
-	terminator \
 	dmenu \
 	firefox \
+	alacritty \
+	zsh \
+	mpv \
+	util-linux-user \
+	wl-clipboard \
+	clipman \
+	mako \
+	unrar \
+	unzip \
+	p7zip \
+	file-roller \
+	qbittorrent \
+	thunar \
+	imv \
+	gh \
+	golang \
+	keepassxc \
 	pipewire \
 	wireplumber \
-	pipewire-pulseaudio \
-	#pipewire-alsa \
-	#pipewire-plugin-jack \
-
-mkdir -p ~/.config/sway
-cp /etc/sway/config ~/.config/sway/config
+	pipewire-pulseaudio
