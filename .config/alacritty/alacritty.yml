@@ -1,20 +1,16 @@
 font:
-  size: 12.0
+  size: 12
   offset:
-    y: 0
+    y: 2
   normal:
-    family: JetBrainsMono Nerd Font
+    family: monospace
     style: Regular
   bold:
-    family: JetBrainsMono Nerd Font
+    family: monospace
     style: Bold
   italic:
-    family: JetBrainsMono Nerd Font
+    family: monospace
     style: Italic
-
-dpi:
-  x: 96
-  y: 96
 
 window:
   padding:
@@ -23,18 +19,12 @@ window:
   dimensions:
     columns: 120
     lines: 28
-  offset:
-    x: 0
-    y: 0
-  glyph_offset:
-    x: 0
-    y: 0
+
   dynamic_padding: true
 
   opacity: 1.00
-    #opacity: 0.98
 
-  window.dynamic_title: false
+  dynamic_title: false
 
 cursor:
   unfocused_hollow: true
@@ -44,9 +34,9 @@ cursor:
 env:
   TERM: xterm-256color
 
-scrolling:
-  history: 5000
-  auto_scroll: true
+# scrolling:
+#   history: 5000
+#   auto_scroll: true
 
 key_bindings:
   # (Windows, Linux, and BSD only)

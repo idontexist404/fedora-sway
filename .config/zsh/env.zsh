@@ -8,7 +8,7 @@ export GPG_TTY="${TTY:-$(tty)}"
 
 export SUDO_PROMPT="passwd: "
 export TERMINAL="alacritty"
-export BROWSER="brave"
+export BROWSER="firefox"
 export VISUAL="nvim"
 export EDITOR="nvim"
 

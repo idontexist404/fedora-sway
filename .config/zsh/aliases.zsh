@@ -2,9 +2,11 @@
 ## Aliases
 ##
 
+alias ob="flatpak run md.obsidian.Obsidian"
+alias god="cd $HOME/go/src/github.com/idontexist404/"
 alias reboot='systemctl reboot'
 alias poweroff='systemctl poweroff'
-alias grub-update='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias grub-update='sudo grub2-mkconfig -o /boot/grub2/grub.cfg'
 alias mirror-update='sudo reflector --verbose -c Indonesia -c Japan --sort rate --save /etc/pacman.d/mirrorlist'
 alias mtar='tar -zcvf' # mtar <archive_compress>
 alias utar='tar -zxvf' # utar <archive_decompress> <file_list>

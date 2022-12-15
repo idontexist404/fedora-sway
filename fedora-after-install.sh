@@ -29,10 +29,15 @@ dnf install \
 	alacritty \
 	zsh \
 	mpv \
+	htop \
+	neofetch \
+	pavucontrol \
 	util-linux-user \
 	wl-clipboard \
 	clipman \
 	mako \
+	zathura \
+	zathura-pdf-mupdf \
 	unrar \
 	unzip \
 	p7zip \
